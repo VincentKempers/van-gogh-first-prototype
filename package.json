@@ -4,19 +4,29 @@
   "description": "an app for the van gopgh museum",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VincentKempers/van-gogh-project.git"
   },
   "keywords": [
-    "vanGogh"
+    "van",
+    "Gogh",
+    "Museum"
   ],
   "author": "vincent kempers",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/VincentKempers/van-gogh-project/issues"
   },
-  "homepage": "https://github.com/VincentKempers/van-gogh-project#readme"
+  "homepage": "https://github.com/VincentKempers/van-gogh-project#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
 }
