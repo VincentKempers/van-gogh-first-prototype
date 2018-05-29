@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "concurrently \"nodemon index.js\" \"npx parcel watch main.js\""
+    "dev": "concurrently \"nodemon index.js\" \"npx parcel watch main.js\""
   },
   "repository": {
     "type": "git",
