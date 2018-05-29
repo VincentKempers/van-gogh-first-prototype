@@ -89,3 +89,6 @@ Temporary Items
 
 # sketchfiles
 .sketch
+
+# parcel
+.cache
