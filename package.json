@@ -1,0 +1,22 @@
+{
+  "name": "van-gogh-project",
+  "version": "1.0.0",
+  "description": "an app for the van gopgh museum",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentKempers/van-gogh-project.git"
+  },
+  "keywords": [
+    "vanGogh"
+  ],
+  "author": "vincent kempers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VincentKempers/van-gogh-project/issues"
+  },
+  "homepage": "https://github.com/VincentKempers/van-gogh-project#readme"
+}
