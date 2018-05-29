@@ -1,1 +1,1 @@
-# van Gogh museum
+# Vincent van Gogh museum
