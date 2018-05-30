@@ -12,13 +12,10 @@ app.get('/', (req, res) => {
 app.get('/selection', (req, res) => {
 	res.render('selection');
 });
-<<<<<<< HEAD
 
 app.get('/chosen', (req, res) => {
 	res.render('chosen');
 });
-=======
->>>>>>> 9b4d9b4182a9f067a9d8d56739c79c30821aa9d8
 
 app.listen(4044, () => {
 	console.log('app runs at http://localhost:4044');
