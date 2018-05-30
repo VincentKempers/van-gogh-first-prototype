@@ -1,6 +1,5 @@
 // import css files
-import './src/style/index.scss';
-
+require('./src/style/index.scss');
 
 // import js files
-import './src/index.js';
+require('./src/index.js');
