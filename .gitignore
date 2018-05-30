@@ -92,3 +92,6 @@ Temporary Items
 
 # parcel
 .cache
+
+# dist
+dist/*
