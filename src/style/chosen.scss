@@ -12,9 +12,10 @@
   }
 
   h1 {
-    padding-left: 1em;
+    padding-left: .7em;
     margin: 1em 0;
     font-size: 2em;
+    font-family: 'Capriola', sans-serif;
   }
 
   .line-emphasize {
@@ -22,7 +23,7 @@
     border: 2px solid;
     border-color: inherit;
     border-radius: 2px;
-    margin-left: 2em;
+    margin-left: 1.6em;
     margin-bottom: 3em;
   }
 
@@ -57,11 +58,11 @@
       max-width: 4em;
       background: #000;
       border-radius: 1.5rem;
+      text-decoration: none;
 
       span {
           color: #fff;
           display: inline-block;
-          // margin-top: .7rem;
       }
 
       &.chosen {
