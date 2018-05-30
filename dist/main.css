@@ -1,7 +1,12 @@
+/* all variables */
+/* colors */
+/* templating */
+/* fontstuff */
 * {
   margin: 0;
   padding: 0;
-  font-family: helvetica, sans-serif; }
+  font-family: helvetica, sans-serif;
+  color: white; }
 
 .home {
   background-color: #017b92;
@@ -13,7 +18,7 @@
     color: white; }
   .home h1 {
     margin: 1em 0 2em .4em;
-    font-size: 3em; }
+    font-size: 2em; }
   .home div {
     margin-bottom: 4em;
     margin-left: 1em; }
@@ -36,10 +41,8 @@
 
 .selection-screen {
   position: relative;
-  background: #fff;
+  background: #8f2022;
   height: 100%;
-  margin: auto;
-  margin-bottom: 2rem;
   padding: 3.2rem 1.2rem;
   padding-bottom: 0;
   overflow-y: scroll; }
@@ -51,9 +54,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0;
-    margin-bottom: 2rem;
-    padding: 0; }
+    padding-bottom: 2rem; }
   .selection-screen li {
     display: inline-block;
     background: #D8D8D8;
@@ -104,3 +105,18 @@
   margin-left: 1rem; }
   .map-view li:last-of-type {
     margin-right: 1rem; }
+
+.chosen {
+  background-color: #8f2022;
+  width: 100vw;
+  height: 100vh; }
+  .chosen a {
+    margin-left: 1em;
+    padding: 1em; }
+    .chosen a svg {
+      margin-top: 2em; }
+  .chosen h1 {
+    padding: 1em 0 2em 1.4em;
+    font-size: 2em; }
+  .chosen div .circle {
+    width: 2em; }
