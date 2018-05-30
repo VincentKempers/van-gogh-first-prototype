@@ -15,8 +15,6 @@
 		},
 		onSelect: function(evt) {
 			if (demoSelection.selection.length < 2) {
-				// console.log(demoSelection, this, evt.target);
-
 				this.classList.add('selected');
 				demoSelection.selection.push(this);
 			} else {
@@ -27,6 +25,10 @@
 					this.classList.add('selected');
 					demoSelection.selection.push(this);
 				}
+			}
+
+			if (demoSelection.selection.length === 1) {
+				document.querySelector('.confirm-btn').classList.add('chosen');
 			}
 		},
 	};
