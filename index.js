@@ -4,6 +4,7 @@ const app = express();
 
 app.set('view engine', 'ejs');
 app.use('/dist', express.static('dist'));
+app.use('/image', express.static('assets/images'));
 
 app.get('/', (req, res) => {
 	res.render('home');
@@ -11,6 +12,10 @@ app.get('/', (req, res) => {
 
 app.get('/selection', (req, res) => {
 	res.render('selection');
+});
+
+app.get('/map-view', (req, res) => {
+	res.render('map-view');
 });
 
 app.listen(4044, () => {

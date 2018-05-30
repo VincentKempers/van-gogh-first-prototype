@@ -80,3 +80,27 @@
       margin-top: .8rem; }
     .selection-screen .confirm-btn.chosen {
       transform: translateY(0); }
+
+.map-view h1 {
+  margin: 1em 0 1em 0.4em;
+  font-size: 2em; }
+
+.map-view img {
+  width: 100%;
+  height: auto; }
+
+.map-view ul {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll; }
+
+.map-view li {
+  display: inline-block;
+  min-width: 3rem;
+  height: 3rem;
+  list-style: none;
+  background: #d8d8d8;
+  border-radius: 4rem;
+  margin-left: 1rem; }
+  .map-view li:last-of-type {
+    margin-right: 1rem; }
