@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({9:[function(require,module,exports) {
+})({5:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -128,7 +128,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],8:[function(require,module,exports) {
+},{}],4:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -159,21 +159,38 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":9}],4:[function(require,module,exports) {
+},{"./bundle-url":5}],3:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":8}],3:[function(require,module,exports) {
-console.log('yung vinnie');
+},{"_css_loader":4}],2:[function(require,module,exports) {
+(function () {
+	var demoSelection = {
+		selection: [],
+		selectButtons: [],
+		getButtons: document.querySelectorAll('.selection-screen li'),
+		init: function init() {
+			if (this.getButtons()) {
+				this.selectButtons = this.getButtons();
+				console.log(this.selectButtons);
+			}
+		},
+		onSelect: function onSelect(evt) {
+			if (this.selectButtons.length < 2) {
+				this.classList.add('selected');
+			}
+		}
+	};
+})();
 },{}],1:[function(require,module,exports) {
 'use strict';
 
 require('./src/style/index.scss');
 
 require('./src/index.js');
-},{"./src/style/index.scss":4,"./src/index.js":3}],10:[function(require,module,exports) {
+},{"./src/style/index.scss":3,"./src/index.js":2}],11:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -202,7 +219,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53112' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61013' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -343,5 +360,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[10,1], null)
+},{}]},{},[11,1], null)
 //# sourceMappingURL=/main.map
