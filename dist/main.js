@@ -166,14 +166,14 @@ module.exports = reloadCSS;
         module.hot.accept(reloadCSS);
       
 },{"_css_loader":8}],3:[function(require,module,exports) {
-console.log('yung vinnie');
+console.log("vince");
 },{}],1:[function(require,module,exports) {
 'use strict';
 
 require('./src/style/index.scss');
 
 require('./src/index.js');
-},{"./src/style/index.scss":4,"./src/index.js":3}],10:[function(require,module,exports) {
+},{"./src/style/index.scss":4,"./src/index.js":3}],27:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -343,5 +343,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[10,1], null)
+},{}]},{},[27,1], null)
 //# sourceMappingURL=/main.map
