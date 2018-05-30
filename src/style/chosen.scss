@@ -16,9 +16,25 @@
     font-size: 2em;
   }
 
-  div {
+  .selections {
+    margin-left: 1em;
     .circle {
-      width: 2em;
+      background: #D8D8D8;
+      height: 4.5rem;
+      width: 4.5rem;
+      margin-bottom: 1rem;
+      margin-left: 1.2rem;
+      border-radius: 50%;
+      border: 3px solid skyblue;
+    }
+  }
+
+  .user--picked {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    em {
+      padding-left: .3em;
     }
   }
 
