@@ -19,20 +19,20 @@
     margin-left: 1em; }
     .home div h2 {
       font-size: 1.8em;
-      border-bottom: 1px solid white; }
+      padding-bottom: .1em;
+      border-bottom: 2px solid white; }
       .home div h2 span {
         font-size: .5em; }
     .home div ul {
       list-style: none; }
-      .home div ul li {
-        padding: 1em; }
-        .home div ul li a {
-          width: auto;
-          height: auto;
-          text-decoration: none;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between; }
+      .home div ul li a {
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: .9em; }
 
 .selection-screen {
   position: relative;
