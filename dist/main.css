@@ -34,3 +34,38 @@ body {
     }
     .selection-screen li .selected {
       border: solid skyblue 2px; }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif; }
+
+.home {
+  background-color: #017b92;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; }
+  .home h1, .home h2, .home li, .home a, .home p {
+    color: white; }
+  .home h1 {
+    margin: 1em 0 2em .4em;
+    font-size: 3em; }
+  .home div {
+    margin-bottom: 4em;
+    margin-left: 1em; }
+    .home div h2 {
+      font-size: 1.8em;
+      border-bottom: 1px solid white; }
+      .home div h2 span {
+        font-size: .5em; }
+    .home div ul {
+      list-style: none; }
+      .home div ul li {
+        padding: 1em; }
+        .home div ul li a {
+          width: auto;
+          height: auto;
+          text-decoration: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }

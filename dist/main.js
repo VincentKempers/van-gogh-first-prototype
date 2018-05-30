@@ -165,6 +165,7 @@ module.exports = reloadCSS;
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
+<<<<<<< HEAD
 },{"_css_loader":4}],2:[function(require,module,exports) {
 (function () {
 	var demoSelection = {
@@ -184,13 +185,21 @@ module.exports = reloadCSS;
 		}
 	};
 })();
+=======
+},{"_css_loader":8}],3:[function(require,module,exports) {
+console.log("vince");
+>>>>>>> 3c6eada39548853e2de758fbc0fe726d4b097b0d
 },{}],1:[function(require,module,exports) {
 'use strict';
 
 require('./src/style/index.scss');
 
 require('./src/index.js');
+<<<<<<< HEAD
 },{"./src/style/index.scss":3,"./src/index.js":2}],11:[function(require,module,exports) {
+=======
+},{"./src/style/index.scss":4,"./src/index.js":3}],27:[function(require,module,exports) {
+>>>>>>> 3c6eada39548853e2de758fbc0fe726d4b097b0d
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -360,5 +369,9 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
+<<<<<<< HEAD
 },{}]},{},[11,1], null)
+=======
+},{}]},{},[27,1], null)
+>>>>>>> 3c6eada39548853e2de758fbc0fe726d4b097b0d
 //# sourceMappingURL=/main.map
