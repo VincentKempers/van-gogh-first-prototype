@@ -30,6 +30,3 @@ This is a roughly sketch to for the styleguide the font is a custom made font so
 The tour has a drasticly different style instead of the website. It isn't confusing and it sure is simplistic. But it could be more in the style of the website. This could make it for the user a bit easier.
 
 - [x] This should be tested
-
-# Links
-- [VueJS](https://vuejs.org/)
