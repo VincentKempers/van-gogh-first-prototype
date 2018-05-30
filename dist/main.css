@@ -1,7 +1,12 @@
+/* all variables */
+/* colors */
+/* templating */
+/* fontstuff */
 * {
   margin: 0;
   padding: 0;
-  font-family: helvetica, sans-serif; }
+  font-family: helvetica, sans-serif;
+  color: white; }
 
 .home {
   background-color: #017b92;
@@ -57,3 +62,16 @@
     border-radius: 50%; }
     .selection-screen li .selected {
       border: solid skyblue 2px; }
+
+.chosen {
+  background-color: #8f2022;
+  width: 100vw;
+  height: 100vh; }
+  .chosen a {
+    margin-left: 1em;
+    padding: 1em; }
+    .chosen a svg {
+      margin-top: 2em; }
+  .chosen h1 {
+    padding: 1em 0 2em 1.4em;
+    font-size: 2em; }
