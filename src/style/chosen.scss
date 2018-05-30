@@ -1,0 +1,25 @@
+.chosen {
+  background-color: $backgroundColorRed;
+  width: $widthMax;
+  height: $heightMax;
+
+  a {
+    margin-left: 1em;
+    padding: 1em;
+    svg {
+      margin-top: 2em;
+    }
+  }
+
+  h1 {
+    padding: 1em 0 2em 1.4em;
+    font-size: 2em;
+  }
+
+  div {
+    .circle {
+      width: 2em;
+    }
+  }
+
+}
