@@ -1,4 +1,11 @@
 .map-view {
+	height: $heightMax;
+	width: $widthMax;
+	background: $backgroundColorRed;
+
+	display: flex;
+	flex-direction: column;
+
 	h1 {
 		margin: 1em 0 1em 0.4em;
 		font-size: 2em;
@@ -13,6 +20,12 @@
 		display: flex;
 		flex-direction: row;
 		overflow-x: scroll;
+
+		width: 100%;
+		position: absolute;
+		bottom: 2rem;
+
+		margin-top: 2rem;
 	}
 
 	li {
