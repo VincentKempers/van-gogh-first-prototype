@@ -5,14 +5,17 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
-		"dev":
-			"concurrently \"nodemon index.js\" \"node-sass -w ./src/style/index.scss ./dist/main.css\" \"watchify ./src/index.js -o ./dist/index.js \" "
+		"dev": "concurrently \"nodemon index.js\" \"node-sass -w ./src/style/index.scss ./dist/main.css\" \"watchify ./src/index.js -o ./dist/index.js \" "
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/VincentKempers/van-gogh-project.git"
 	},
-	"keywords": ["van", "Gogh", "Museum"],
+	"keywords": [
+		"van",
+		"Gogh",
+		"Museum"
+	],
 	"author": "vincent kempers",
 	"license": "MIT",
 	"bugs": {
