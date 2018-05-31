@@ -22,6 +22,10 @@ app.get('/chosen', (req, res) => {
 	res.render('chosen');
 });
 
+app.get('/details', (req, res) => {
+	res.render('details');
+});
+
 app.listen(4044, () => {
 	console.log('app runs at http://localhost:4044');
 });
