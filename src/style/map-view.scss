@@ -1,10 +1,9 @@
 .map-view {
+	display: flex;
+	flex-direction: column;
 	height: $heightMax;
 	width: $widthMax;
 	background: $backgroundColorRed;
-
-	display: flex;
-	flex-direction: column;
 
 	h1 {
 		margin: 1em 0 1em 0.4em;
