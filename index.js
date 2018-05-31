@@ -30,6 +30,10 @@ app.get('/details-play', (req, res) => {
 	res.render('details-play');
 });
 
+app.get('/goto', (req, res) => {
+	res.render('goto');
+});
+
 app.listen(4044, () => {
 	console.log('app runs at http://localhost:4044');
 });
