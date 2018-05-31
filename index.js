@@ -22,6 +22,14 @@ app.get('/chosen', (req, res) => {
 	res.render('chosen');
 });
 
+app.get('/details', (req, res) => {
+	res.render('details');
+});
+
+app.get('/details-play', (req, res) => {
+	res.render('details-play');
+});
+
 app.get('/goto', (req, res) => {
 	res.render('goto');
 });
