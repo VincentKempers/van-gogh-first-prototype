@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/dist/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Capriola" rel="stylesheet">
     <title>van Gogh app</title>
   </head>
   <body>
   <section class="chosen">
     <a href="/selection">
 <svg width="21px" height="30px" viewBox="0 0 21 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Mobile" transform="translate(-26.000000, -25.000000)" fill="#FFFFFF" fill-rule="nonzero">
@@ -20,19 +19,21 @@
         </g>
     </g>
 </svg></a>
-
     <h1>U heeft gekozen voor de thema's</h1>
+    <div class="line-emphasize"></div>
     <div class="selections">
-      <div class="selection-1">
+      <div class="user--picked">
         <div class="circle"></div>
-        <p>Experimentele fase in zijn leven.</p>
+        <em>Experimentele fase in zijn leven.</em>
       </div>
-      <div class="selection-2">
+      <div class="user--picked">
         <div class="circle"></div>
-        <p>Vrienden van Gogh</p>
+        <em>Vrienden van Gogh</em>
       </div>
     </div>
-    <button type="button" name="start">Start</button>
+    <a class="confirm-btn" href="/selection-overview">
+      <span>Bevestig</span>
+    </a>
   </section>
   </body>
   </html>
