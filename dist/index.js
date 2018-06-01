@@ -5,8 +5,6 @@
 		selectButtons: document.querySelectorAll('.selection-screen li'),
 		// getButtons: ,
 		init: function() {
-			console.log(this.selectButtons[0]);
-
 			if (this.selectButtons) {
 				this.selectButtons.forEach(button => {
 					button.addEventListener('click', demoSelection.onSelect);
