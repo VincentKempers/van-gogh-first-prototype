@@ -107,9 +107,17 @@
     min-width: 3rem;
     height: 3rem;
     list-style: none;
-    background: #d8d8d8;
+    background: white;
     border-radius: 4rem;
     margin-left: 1rem; }
+    .map-view li a {
+      display: block;
+      position: absolute;
+      width: 3rem;
+      margin-top: 1em;
+      text-align: center;
+      color: black;
+      text-decoration: none; }
     .map-view li:last-of-type {
       margin-right: 1rem; }
 
@@ -119,12 +127,16 @@
   height: 100vh;
   width: 100vw;
   background: #8f2022; }
+  .details a svg {
+    padding: 1.6em;
+    background-color: black;
+    fill: black; }
   .details h1 {
     margin: 1em 0 1em 0.4em;
     font-size: 2em; }
   .details div {
     width: 80%;
-    height: 65%;
+    height: 58%;
     margin: 0 auto; }
   .details img {
     height: 100%;
