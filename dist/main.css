@@ -113,58 +113,6 @@
     .map-view li:last-of-type {
       margin-right: 1rem; }
 
-.chosen {
-  background-color: #8f2022;
-  width: 100vw;
-  height: 100vh; }
-  .chosen [href="/selection"] svg {
-    padding: 1.6em;
-    background-color: black;
-    fill: black; }
-  .chosen h1 {
-    padding-left: .7em;
-    margin: 1em 0;
-    font-size: 2em;
-    font-family: 'Capriola', sans-serif; }
-  .chosen .line-emphasize {
-    width: 7.5rem;
-    border: 2px solid;
-    border-color: inherit;
-    border-radius: 2px;
-    margin-left: 1.6em;
-    margin-bottom: 3em; }
-  .chosen .selections {
-    margin-left: 1em; }
-    .chosen .selections .circle {
-      background: #D8D8D8;
-      height: 4.5rem;
-      width: 4.5rem;
-      margin-bottom: 1rem;
-      margin-left: 1.2rem;
-      border-radius: 50%;
-      border: 3px solid skyblue; }
-  .chosen .user--picked {
-    display: flex;
-    flex-direction: row;
-    align-items: center; }
-    .chosen .user--picked em {
-      padding-left: .3em; }
-  .chosen .confirm-btn {
-    display: flex;
-    justify-content: center;
-    padding: 1em 3em;
-    margin: 0 auto;
-    margin-top: 4em;
-    max-width: 4em;
-    background: #000;
-    border-radius: 1.5rem;
-    text-decoration: none; }
-    .chosen .confirm-btn span {
-      color: #fff;
-      display: inline-block; }
-    .chosen .confirm-btn.chosen {
-      transform: translateY(0); }
-
 .details {
   display: flex;
   flex-direction: column;
@@ -236,6 +184,58 @@
       color: #fff;
       display: inline-block;
       margin-top: 0.8rem; }
+
+.chosen {
+  background-color: #8f2022;
+  width: 100vw;
+  height: 100vh; }
+  .chosen [href="/selection"] svg {
+    padding: 1.6em;
+    background-color: black;
+    fill: black; }
+  .chosen h1 {
+    padding-left: .7em;
+    margin: 1em 0;
+    font-size: 2em;
+    font-family: 'Capriola', sans-serif; }
+  .chosen .line-emphasize {
+    width: 7.5rem;
+    border: 2px solid;
+    border-color: inherit;
+    border-radius: 2px;
+    margin-left: 1.6em;
+    margin-bottom: 3em; }
+  .chosen .selections {
+    margin-left: 1em; }
+    .chosen .selections .circle {
+      background: #D8D8D8;
+      height: 4.5rem;
+      width: 4.5rem;
+      margin-bottom: 1rem;
+      margin-left: 1.2rem;
+      border-radius: 50%;
+      border: 3px solid skyblue; }
+  .chosen .user--picked {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .chosen .user--picked em {
+      padding-left: .3em; }
+  .chosen .confirm-btn {
+    display: flex;
+    justify-content: center;
+    padding: 1em 3em;
+    margin: 0 auto;
+    margin-top: 4em;
+    max-width: 4em;
+    background: #000;
+    border-radius: 1.5rem;
+    text-decoration: none; }
+    .chosen .confirm-btn span {
+      color: #fff;
+      display: inline-block; }
+    .chosen .confirm-btn.chosen {
+      transform: translateY(0); }
 
 .goto {
   background-color: black;
