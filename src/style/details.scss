@@ -5,6 +5,14 @@
 	width: $widthMax;
 	background: $backgroundColorRed;
 
+	a {
+		svg {
+			padding: 1.6em;
+			background-color: black;
+			fill: black;
+		}
+	}
+
 	h1 {
 		margin: 1em 0 1em 0.4em;
 		font-size: 2em;
@@ -12,7 +20,7 @@
 
 	div {
 		width: 80%;
-		height: 65%;
+		height: 58%;
 		margin: 0 auto;
 	}
 
